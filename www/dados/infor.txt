@@ -1,0 +1,35 @@
+CREATE DATABASE almox;
+
+CREATE USER 'douglas'@'localhost' IDENTIFIED BY '0cENUP&uAz@F';
+
+GRANT ALL PRIVILEGES ON * . * TO 'douglas'@'localhost';
+
+FLUSH PRIVILEGES;
+
+use almox;
+
+
+banco: banco_dany
+usuario: root Doug86*¨
+phpmyadmin: douglas Asd321@#
+
+show variables like '%char%';
+
+CREATE TABLE cadastro (
+    id_cad int not null AUTO_INCREMENT,
+    data_compra date,
+    cupom varchar (30),
+    nome varchar (30),
+    whatsapp double,
+    informa varchar (4),
+    pesquisa int,
+    PRIMARY KEY (id_cad)
+) ENGINE = MyISAM;
+
+
+
+http://ec2-3-83-108-31.compute-1.amazonaws.com/
+https://app.qr-code-generator.com/manage/?aftercreate=1&count=1
+
+contagem de whatsapp adicionados por pessoa.
+select count(whatsapp) from cadastro WHERE whatsapp = 19999223344;

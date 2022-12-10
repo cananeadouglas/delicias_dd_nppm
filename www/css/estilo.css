@@ -1,0 +1,109 @@
+.semcor{
+    background: none;
+    box-shadow: none;
+}
+
+.fontess{
+    font-style: italic; /* fonte itálica */
+}
+
+.confirma{
+    font-size: 20px ;  /**/
+}
+body{
+    background: #C17B38;  /* Cor de fundo */
+    font-size: 13px ;  /**/
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header {
+    color: black;/*cor da fonte */
+    text-align: center;/**/
+
+
+}
+
+section {
+    background: white;/*cor de fundo */
+    color: black;
+    border-radius: 15px;/*bordas arredondadas*/
+    padding: 16px;/*espaço entre o texto e a borda*/
+    margin-right: 30px; /*  margem para direita */
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 295px;/*largura*/
+    margin: center;/*centralizar a div no meio da tela*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);/* sobreamento e cor*/
+    display: inline-block;
+    float: left;
+    flex-direction: row;
+
+}
+
+footer {
+    color: white;/* cor da fonte */
+    text-align: center;/* centralizar texto*/
+    font-style: italic; /* fonte itálica */
+}
+  
+input[type=submit] {
+    width: 292px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=number] {
+    width: 250px;
+    background-color: #E4E4E4;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: black;
+    font-size: 12px;
+
+}
+
+input[type=text] {
+    width: 250px;
+    background-color: #E4E4E4;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: black;
+    font-size: 12px;
+}
+
+input[type=tel] {
+    width: 250px;
+    background-color: #E4E4E4;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: black;
+    font-size: 12px;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
