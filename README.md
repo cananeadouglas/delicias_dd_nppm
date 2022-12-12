@@ -1,12 +1,8 @@
-Maiores informações - delicias_dd_nppm: 
+Maiores informações - delicias_dd_nppm:
 
-é um projeto de cadastro de whatsapp com cupons pre-configurados. Ao qual se faz uma contagem de números de whatsapp. Feito em PHP e Mysql. 
-
-
+é um projeto de cadastro de whatsapp com cupons pre-configurados. Ao qual se faz uma contagem de números de whatsapp. Feito em PHP e Mysql.
 
 Delícias da Dany - Nginx, PHP, MySql e Phpmyadmin.
-
-
 
 Acessar docker.localhost (como descrito no arquivo site.conf)
 
@@ -41,5 +37,8 @@ Perfeito, agora temos o servidor Nginx rodando com PHP e o MySQL, já podemos cr
 Para testar a conexão, primeiro precisamos instalar a extensão PDO para MySQL no PHP pois essa não vem configurado por padrão, é possível definir a instalação dessa extensão no arquivo Dockerfile para que seja instalada já no primeiro build do serviço, como nesse post não iremos abordar o arquivo Dockerfile, vamos realizar essa instalação de forma manual com um comando, para isso vamos executar o seguinte comando no diretório de nosso projeto:
 
 $ docker exec -it php-fpm docker-php-ext-install pdo pdo_mysql
+
+
+$ docker-compose exec php docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli
 
 docker-compose restart
