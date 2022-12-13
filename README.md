@@ -38,7 +38,11 @@ Para testar a conexão, primeiro precisamos instalar a extensão PDO para MySQL 
 
 $ docker exec -it php-fpm docker-php-ext-install pdo pdo_mysql
 
-
 $ docker-compose exec php docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli
 
 docker-compose restart
+
+
+para que não tenhamos problemas podemos executar somente o comando: 
+
+$ docker-compose up --build

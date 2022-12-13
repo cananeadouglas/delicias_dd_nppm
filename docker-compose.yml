@@ -20,10 +20,8 @@ services:
     links:
       - php
   php:
-    image: php:7.2-fpm-alpine
-    build: 
-      context: .
-      dockerfile: Dockerfile
+    #image: php:7.2-fpm-alpine
+    build: .
     container_name: php-fpm
     networks:
       - wordpress_net
