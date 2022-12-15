@@ -42,7 +42,6 @@ $ docker-compose exec php docker-php-ext-install mysqli pdo pdo_mysql && docker-
 
 docker-compose restart
 
+para que não tenhamos problemas podemos executar somente o comando:
 
-para que não tenhamos problemas podemos executar somente o comando: 
-
-$ docker-compose up --build
+$ docker-compose up -d
